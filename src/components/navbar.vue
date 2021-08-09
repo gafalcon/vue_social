@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar py-2 border border-gray-300">
+  <div class="navbar py-2 border border-gray-300 sticky top-0 bg-white">
     <div class="container mx-auto px-36 flex justify-between items-center">
       <div class="text-3xl font-dancing flex-1">Vue Social</div>
       <div

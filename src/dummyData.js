@@ -137,3 +137,135 @@ export const Posts = [
     comment: 12,
   },
 ];
+
+export const Comments = [
+  {
+    id: 1,
+    username: "hfoale0",
+    comment:
+      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    liked: true,
+  },
+  {
+    id: 2,
+    username: "rjemmett1",
+    comment: "Integer ac leo. Pellentesque ultrices mattis odio.",
+    liked: true,
+  },
+  {
+    id: 3,
+    username: "hrice2",
+    comment: "Nam tristique tortor eu pede.",
+    liked: false,
+  },
+  {
+    id: 4,
+    username: "fottewill3",
+    comment: "Proin at turpis a pede posuere nonummy.",
+    liked: false,
+  },
+  {
+    id: 5,
+    username: "mglanert4",
+    comment:
+      "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    liked: true,
+  },
+  {
+    id: 6,
+    username: "bmacdearmaid5",
+    comment: "Pellentesque ultrices mattis odio.",
+    liked: true,
+  },
+  {
+    id: 7,
+    username: "cbrignall6",
+    comment:
+      "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+    liked: false,
+  },
+  {
+    id: 8,
+    username: "dgalton7",
+    comment: "Pellentesque at nulla.",
+    liked: true,
+  },
+  {
+    id: 9,
+    username: "rvarvara8",
+    comment: "Proin interdum mauris non ligula pellentesque ultrices.",
+    liked: false,
+  },
+  {
+    id: 10,
+    username: "blahrs9",
+    comment: "Morbi a ipsum.",
+    liked: false,
+  },
+  {
+    id: 11,
+    username: "nskiptona",
+    comment:
+      "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    liked: false,
+  },
+  {
+    id: 12,
+    username: "dbrealeyb",
+    comment: "Proin eu mi. Nulla ac enim.",
+    liked: true,
+  },
+  {
+    id: 13,
+    username: "croyanc",
+    comment:
+      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    liked: false,
+  },
+  {
+    id: 14,
+    username: "rfoleyd",
+    comment: "Vivamus tortor.",
+    liked: true,
+  },
+  {
+    id: 15,
+    username: "rsassere",
+    comment:
+      "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
+    liked: true,
+  },
+  {
+    id: 16,
+    username: "aagerskowf",
+    comment:
+      "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+    liked: true,
+  },
+  {
+    id: 17,
+    username: "ecarcassg",
+    comment:
+      "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    liked: false,
+  },
+  {
+    id: 18,
+    username: "abambridgeh",
+    comment:
+      "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+    liked: false,
+  },
+  {
+    id: 19,
+    username: "vdelahunti",
+    comment: "Nulla ac enim.",
+    liked: true,
+  },
+  {
+    id: 20,
+    username: "ghicklingbottomj",
+    comment: "Vestibulum sed magna at nunc commodo placerat.",
+    liked: false,
+  },
+];

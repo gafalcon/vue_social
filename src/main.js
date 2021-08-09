@@ -8,6 +8,10 @@ import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons";
 import {
   faCompass,
   faHeart as faHeartOutline,
+  faComment,
+  faBookmark,
+  faPaperPlane,
+  faSmileBeam,
 } from "@fortawesome/free-regular-svg-icons";
 import {
   faSearch,
@@ -22,7 +26,11 @@ library.add(
   faCompass,
   faHeartSolid,
   faHeartOutline,
-  faFacebookMessenger
+  faFacebookMessenger,
+  faComment,
+  faBookmark,
+  faPaperPlane,
+  faSmileBeam
 );
 createApp(App)
   .use(store)

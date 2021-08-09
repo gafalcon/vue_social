@@ -2,11 +2,10 @@
   <div class="container mt-7 mx-auto px-36 grid grid-cols-3 gap-4">
     <div class="feed col-span-2">
       <Moments />
+      <Feed />
     </div>
-
-    <div class="sidebar">
-      <AccountSidebar />
-      <SuggestionsSidebar />
+    <div>
+      <Sidebar />
     </div>
   </div>
 </template>
@@ -14,10 +13,14 @@
 <script>
 // @ is an alias to /src
 import Moments from "@/components/moments";
-import AccountSidebar from "@/components/account_sidebar";
-import SuggestionsSidebar from "../components/suggestions_sidebar";
+import Feed from "../components/feed.vue";
+import Sidebar from "../components/sidebar.vue";
 export default {
   name: "Home",
-  components: { Moments, AccountSidebar, SuggestionsSidebar },
+  components: {
+    Moments,
+    Feed,
+    Sidebar,
+  },
 };
 </script>
