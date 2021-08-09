@@ -29,12 +29,7 @@
           />
           <font-awesome-icon :icon="['far', 'compass']" class="ml-8" />
           <font-awesome-icon :icon="['far', 'heart']" class="ml-8" />
-          <ProfileImg
-            alt="profile"
-            href="/profile"
-            :imgSrc="imgSrc"
-            class="ml-8"
-          />
+          <ProfileImg alt="profile" :imgSrc="imgSrc" class="ml-8" />
         </div>
       </div>
     </div>
@@ -49,7 +44,7 @@ export default {
   props: {},
   data() {
     return {
-      imgSrc: require("@/assets/person/1.jpeg"),
+      imgSrc: "assets/person/1.jpeg",
     };
   },
 };

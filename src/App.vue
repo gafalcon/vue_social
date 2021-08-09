@@ -1,17 +1,18 @@
 <template>
   <NavBar />
-  <router-view />
+  <main class="bg-gray-100 flex h-screen">
+    <router-view />
+  </main>
 </template>
 
 <script>
-import NavBar from "@/components/navbar"
+import NavBar from "@/components/navbar";
 
 export default {
   name: "App",
   components: {
-    NavBar
+    NavBar,
   },
-}
+};
 </script>
-<style>
-</style>
+<style></style>
