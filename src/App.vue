@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <main class="bg-gray-100 flex h-screen">
+  <main class="bg-gray-100 flex min-h-screen">
     <router-view />
   </main>
 </template>

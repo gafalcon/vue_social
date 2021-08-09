@@ -6,6 +6,7 @@
 
     <div class="sidebar">
       <AccountSidebar />
+      <SuggestionsSidebar />
     </div>
   </div>
 </template>
@@ -14,8 +15,9 @@
 // @ is an alias to /src
 import Moments from "@/components/moments";
 import AccountSidebar from "@/components/account_sidebar";
+import SuggestionsSidebar from "../components/suggestions_sidebar";
 export default {
   name: "Home",
-  components: { Moments, AccountSidebar },
+  components: { Moments, AccountSidebar, SuggestionsSidebar },
 };
 </script>

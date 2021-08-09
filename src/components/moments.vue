@@ -14,7 +14,9 @@
           />
         </div>
       </div>
-      <span class="text-xs font-semibold truncate w-14">{{ user.username }}</span>
+      <span class="text-xs font-semibold truncate w-14">
+        {{ user.username }}
+      </span>
     </div>
   </div>
 </template>
